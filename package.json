@@ -1,0 +1,35 @@
+{
+  "name": "@jill64/tailwind-grid-auto",
+  "version": "0.1.0",
+  "description": "A Tailwind CSS plugin for automatically adjusting the size of grid track based on a specified number",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
+  "bugs": "https://github.com/jill64/tailwind-grid-auto/issues",
+  "homepage": "https://github.com/jill64/tailwind-grid-auto#readme",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jill64/tailwind-grid-auto.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "prettier --check . && eslint .",
+    "format": "prettier --write ."
+  },
+  "peerDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "eslint": "^8.48.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  }
+}
