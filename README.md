@@ -88,7 +88,3 @@ Alternatively, you can use square bracket notation.
 | --------------- | ---------------------------------------- |
 | `auto-cols-[n]` | `grid-template-columns: repeat(n, auto)` |
 | `auto-rows-[n]` | `grid-template-rows: repeat(n, auto)`    |
-
-## License
-
-MIT
