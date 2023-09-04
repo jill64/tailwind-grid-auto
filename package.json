@@ -10,6 +10,12 @@
   "files": [
     "dist"
   ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
   "keywords": [
     "css"
   ],
@@ -18,7 +24,7 @@
     "url": "https://github.com/jill64/tailwind-grid-auto.git"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && publint",
     "lint": "prettier --check . && eslint .",
     "format": "prettier --write ."
   },
@@ -30,6 +36,7 @@
     "@typescript-eslint/parser": "^6.5.0",
     "eslint": "^8.48.0",
     "prettier": "^3.0.3",
+    "publint": "^0.2.2",
     "typescript": "^5.2.2"
   }
 }
