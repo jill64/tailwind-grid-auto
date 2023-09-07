@@ -26,7 +26,7 @@ module.exports = {
 ## Usage
 
 ```html
-<div class="inline-grid auto-cols-2">
+<div class="inline-grid cols-auto-2">
   <div>--Short--</div>
   <div>--Short--</div>
   <div>----Medium----</div>
@@ -48,24 +48,24 @@ Show as
 
 | Name          | CSS                                      |
 | ------------- | ---------------------------------------- |
-| `auto-cols-1` | `grid-template-columns: repeat(1, auto)` |
-| `auto-cols-2` | `grid-template-columns: repeat(2, auto)` |
-| `auto-cols-3` | `grid-template-columns: repeat(3, auto)` |
-| `auto-cols-4` | `grid-template-columns: repeat(4, auto)` |
-| `auto-cols-5` | `grid-template-columns: repeat(5, auto)` |
-| `auto-cols-6` | `grid-template-columns: repeat(6, auto)` |
-| `auto-cols-7` | `grid-template-columns: repeat(7, auto)` |
-| `auto-cols-8` | `grid-template-columns: repeat(8, auto)` |
-| `auto-cols-9` | `grid-template-columns: repeat(9, auto)` |
-| `auto-rows-1` | `grid-template-rows: repeat(1, auto)`    |
-| `auto-rows-2` | `grid-template-rows: repeat(2, auto)`    |
-| `auto-rows-3` | `grid-template-rows: repeat(3, auto)`    |
-| `auto-rows-4` | `grid-template-rows: repeat(4, auto)`    |
-| `auto-rows-5` | `grid-template-rows: repeat(5, auto)`    |
-| `auto-rows-6` | `grid-template-rows: repeat(6, auto)`    |
-| `auto-rows-7` | `grid-template-rows: repeat(7, auto)`    |
-| `auto-rows-8` | `grid-template-rows: repeat(8, auto)`    |
-| `auto-rows-9` | `grid-template-rows: repeat(9, auto)`    |
+| `cols-auto-1` | `grid-template-columns: repeat(1, auto)` |
+| `cols-auto-2` | `grid-template-columns: repeat(2, auto)` |
+| `cols-auto-3` | `grid-template-columns: repeat(3, auto)` |
+| `cols-auto-4` | `grid-template-columns: repeat(4, auto)` |
+| `cols-auto-5` | `grid-template-columns: repeat(5, auto)` |
+| `cols-auto-6` | `grid-template-columns: repeat(6, auto)` |
+| `cols-auto-7` | `grid-template-columns: repeat(7, auto)` |
+| `cols-auto-8` | `grid-template-columns: repeat(8, auto)` |
+| `cols-auto-9` | `grid-template-columns: repeat(9, auto)` |
+| `rows-auto-1` | `grid-template-rows: repeat(1, auto)`    |
+| `rows-auto-2` | `grid-template-rows: repeat(2, auto)`    |
+| `rows-auto-3` | `grid-template-rows: repeat(3, auto)`    |
+| `rows-auto-4` | `grid-template-rows: repeat(4, auto)`    |
+| `rows-auto-5` | `grid-template-rows: repeat(5, auto)`    |
+| `rows-auto-6` | `grid-template-rows: repeat(6, auto)`    |
+| `rows-auto-7` | `grid-template-rows: repeat(7, auto)`    |
+| `rows-auto-8` | `grid-template-rows: repeat(8, auto)`    |
+| `rows-auto-9` | `grid-template-rows: repeat(9, auto)`    |
 
 You can configure which values are available for this plugin under the `gridAuto` key in your `tailwind.config.js` file:
 
@@ -88,5 +88,5 @@ Alternatively, you can use square bracket notation.
 
 | Name            | CSS                                      |
 | --------------- | ---------------------------------------- |
-| `auto-cols-[n]` | `grid-template-columns: repeat(n, auto)` |
-| `auto-rows-[n]` | `grid-template-rows: repeat(n, auto)`    |
+| `cols-auto-[n]` | `grid-template-columns: repeat(n, auto)` |
+| `rows-auto-[n]` | `grid-template-rows: repeat(n, auto)`    |
