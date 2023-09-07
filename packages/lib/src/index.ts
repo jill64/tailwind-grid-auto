@@ -4,10 +4,10 @@ const gridAuto = plugin(
   ({ matchUtilities, theme }) => {
     matchUtilities(
       {
-        'auto-cols': (n) => ({
+        'cols-auto': (n) => ({
           'grid-template-columns': `repeat(${n},auto)`
         }),
-        'auto-rows': (n) => ({
+        'rows-auto': (n) => ({
           'grid-template-rows': `repeat(${n},auto)`
         })
       },
