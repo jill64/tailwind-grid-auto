@@ -1,5 +1,7 @@
 # tailwind-grid-auto
 
+[![npm version](https://badge.fury.io/js/@jill64%2Ftailwind-grid-auto.svg)](https://badge.fury.io/js/@jill64%2Ftailwind-grid-auto)
+
 A Tailwind CSS plugin for automatically adjusting the size of grid track based on a specified number.
 
 ## Install
