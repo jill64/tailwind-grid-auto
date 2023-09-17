@@ -4,6 +4,8 @@
 
 A Tailwind CSS plugin for automatically adjusting the size of grid track based on a specified number.
 
+[Demo](https://jill64.github.io/tailwind-grid-auto)
+
 ## Install
 
 ```sh
