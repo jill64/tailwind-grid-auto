@@ -14,3 +14,5 @@ jobs:
     uses: jill64/reusable-workflow/.github/workflows/check.yml@main
   publish-pages:
     uses: jill64/reusable-workflow/.github/workflows/publish-pages.yml@main
+    with:
+      output-directory: ./packages/site/build
