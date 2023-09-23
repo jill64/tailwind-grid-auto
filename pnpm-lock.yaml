@@ -51,8 +51,8 @@ importers:
         specifier: 1.25.0
         version: 1.25.0(svelte@4.2.1)(vite@4.4.9)
       '@types/lodash':
-        specifier: 4.14.198
-        version: 4.14.198
+        specifier: 4.14.199
+        version: 4.14.199
       autoprefixer:
         specifier: 10.4.16
         version: 10.4.16(postcss@8.4.30)
@@ -484,8 +484,8 @@ packages:
     resolution: {integrity: sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA==}
     dev: true
 
-  /@types/lodash@4.14.198:
-    resolution: {integrity: sha512-trNJ/vtMZYMLhfN45uLq4ShQSw0/S7xCTLLVM+WM1rmFpba/VS42jVUgaO3w/NOLiWR/09lnYk0yMaA/atdIsg==}
+  /@types/lodash@4.14.199:
+    resolution: {integrity: sha512-Vrjz5N5Ia4SEzWWgIVwnHNEnb1UE1XMkvY5DGXrAeOGE9imk0hgTHh5GyDjLDJi9OTCn9oo9dXH1uToK1VRfrg==}
     dev: true
 
   /@types/pug@2.0.6:
