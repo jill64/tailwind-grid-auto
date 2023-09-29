@@ -1,6 +1,6 @@
 {
   "name": "@jill64/tailwind-grid-auto",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Tailwind CSS plugin for automatically adjusting the size of grid track based on a specified number",
   "main": "dist/index.js",
   "license": "MIT",
