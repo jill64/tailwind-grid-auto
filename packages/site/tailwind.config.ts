@@ -1,5 +1,5 @@
 import { Config } from 'tailwindcss'
-import  gridAuto  from '../../dist/index.js'
+import gridAuto from '../../dist/index.js'
 
 const config = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
