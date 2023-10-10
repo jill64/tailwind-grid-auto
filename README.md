@@ -1,6 +1,7 @@
 # tailwind-grid-auto
 
-![github-actions-ci](https://github.com/jill64/tailwind-grid-auto/actions/workflows/ci.yml/badge.svg)
+[![npm](https://img.shields.io/npm/v/%40jill64%2Ftailwind-grid-auto)](https://npmjs.com/package/@jill64/tailwind-grid-auto)
+[![CI](https://github.com/jill64/tailwind-grid-auto/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/tailwind-grid-auto/actions/workflows/ci.yml)
 
 A Tailwind CSS plugin for automatically adjusting the size of grid track based on a specified number.
 
