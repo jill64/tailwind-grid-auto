@@ -27,7 +27,9 @@
     "access": "public"
   },
   "scripts": {
-    "build": "pnpm -r build && npx publint",
+    "build": "pnpm build:lib && pnpm build:site && npx publint",
+    "build:lib": "cd packages/lib && pnpm build",
+    "build:site": "cd packages/site && pnpm build",
     "check": "cd packages/site && pnpm check",
     "prepack": "npm run build",
     "format": "npx prettier --write . --plugin prettier-plugin-svelte .",
