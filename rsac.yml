@@ -2,4 +2,4 @@ branch-protection:
   main:
     required_status_checks:
       contexts:
-        - deploy/ publish-pages
+        - deploy / publish-pages
