@@ -1,17 +1,17 @@
 <script lang="ts">
   import shuffle from 'lodash/shuffle.js'
-  let boxes = [...new Array(20)].map((_, i) => i + 1)
+  import '../app.postcss'
 
-  $: onClick = () => {
-    boxes = shuffle(boxes)
-  }
+  let boxes = [...new Array(20)].map((_, i) => i + 1)
 </script>
 
 <h1 class="text-4xl font-bold m-4">tailwind-grid-auto</h1>
 <div class="my-4">
   <button
     class="px-4 py-2 rounded-full border border-zinc-500"
-    on:click={onClick}
+    on:click={() => {
+      boxes = shuffle(boxes)
+    }}
   >
     Shuffle
   </button>
