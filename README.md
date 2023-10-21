@@ -16,15 +16,19 @@ npm i @jill64/tailwind-grid-auto
 
 ```js:tailwind.config.js
 // tailwind.config.js
-module.exports = {
+import gridAuto from '@jill64/tailwind-grid-auto'
+
+const config = {
   theme: {
     // ...
   },
   plugins: [
-    require('@jill64/tailwind-grid-auto')
+    gridAuto
     // ...
   ]
 }
+
+export default config
 ```
 
 ## Usage
