@@ -33,22 +33,9 @@ export default config
 
 ```html
 <div class="inline-grid cols-auto-2">
-  <div>--Short--</div>
-  <div>--Short--</div>
-  <div>----Medium----</div>
-  <div>------Long------</div>
-  <div>------Long------</div>
-  <div>--------ExLong--------</div>
+  <!– ... –>
 </div>
 ```
-
-Show as
-
-|                    |                          |
-| ------------------ | ------------------------ |
-| `--Short--`        | `--Short--`              |
-| `----Medium----`   | `------Long------`       |
-| `------Long------` | `--------ExLong--------` |
 
 ## Configuration
 
