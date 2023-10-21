@@ -19,9 +19,7 @@ npm i @jill64/tailwind-grid-auto
 import gridAuto from '@jill64/tailwind-grid-auto'
 
 const config = {
-  theme: {
-    // ...
-  },
+  // ...
   plugins: [
     gridAuto
     // ...
@@ -77,9 +75,11 @@ Show as
 
 You can configure which values are available for this plugin under the `gridAuto` key in your `tailwind.config.js` file:
 
-```js
+```js:tailwind.config.js
 // tailwind.config.js
-module.exports = {
+import gridAuto from '@jill64/tailwind-grid-auto'
+
+const config = {
   theme: {
     extend: {
       gridAuto: {
@@ -89,7 +89,10 @@ module.exports = {
       }
     }
   }
+  // ...
 }
+
+export default config
 ```
 
 Alternatively, you can use square bracket notation.
