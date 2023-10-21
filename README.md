@@ -33,7 +33,7 @@ export default config
 
 ```html
 <div class="inline-grid cols-auto-2">
-  <!– ... –>
+  <!–- ... -–>
 </div>
 ```
 
