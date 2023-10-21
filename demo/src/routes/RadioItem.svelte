@@ -4,11 +4,6 @@
 </script>
 
 <label class="flex gap-4 items-center cursor-pointer">
-  <input
-    type="radio"
-    class="scale-150 cursor-auto"
-    bind:group
-    {value}
-  />
+  <input type="radio" class="scale-150 cursor-auto" bind:group {value} />
   {value}
 </label>
