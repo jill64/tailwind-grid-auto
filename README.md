@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/l/%40jill64%2Ftailwind-grid-auto)](https://npmjs.com/package/@jill64/tailwind-grid-auto)
 [![Deploy](https://github.com/jill64/tailwind-grid-auto/actions/workflows/deploy.yml/badge.svg)](https://github.com/jill64/tailwind-grid-auto/actions/workflows/deploy.yml)
 
-A Tailwind CSS plugin for automatically adjusting the size of grid track based on a specified number.
+A Tailwind CSS plugin for automatically adjusting the size of grid track.
 
 [Demo](https://jill64.github.io/tailwind-grid-auto)
 
