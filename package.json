@@ -1,7 +1,7 @@
 {
   "name": "@jill64/tailwind-grid-auto",
   "version": "1.0.15",
-  "description": "A Tailwind CSS plugin for automatically adjusting the size of grid track",
+  "description": "A Tailwind CSS plugin for automatically adjusting of grid size",
   "main": "dist/index.js",
   "license": "MIT",
   "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
@@ -30,7 +30,7 @@
     "check": "cd packages/site && pnpm check",
     "prepack": "npm run build",
     "format": "npx prettier --write . --plugin prettier-plugin-svelte .",
-    "lint": "npx prettier --check . --plugin prettier-plugin-svelte . && npx eslint && pnpm check"
+    "lint": "npx prettier --check . --plugin prettier-plugin-svelte . && npx eslint . && pnpm check"
   },
   "peerDependencies": {
     "tailwindcss": "^3.0.0"
