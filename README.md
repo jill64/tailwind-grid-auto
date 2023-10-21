@@ -1,29 +1,34 @@
 # tailwind-grid-auto
 
 [![npm](https://img.shields.io/npm/v/%40jill64%2Ftailwind-grid-auto)](https://npmjs.com/package/@jill64/tailwind-grid-auto)
+[![npm](https://img.shields.io/npm/l/%40jill64%2Ftailwind-grid-auto)](https://npmjs.com/package/@jill64/tailwind-grid-auto)
 [![Deploy](https://github.com/jill64/tailwind-grid-auto/actions/workflows/deploy.yml/badge.svg)](https://github.com/jill64/tailwind-grid-auto/actions/workflows/deploy.yml)
 
 A Tailwind CSS plugin for automatically adjusting the size of grid track based on a specified number.
 
 [Demo](https://jill64.github.io/tailwind-grid-auto)
 
-## Install
+## Installation
 
 ```sh
 npm i @jill64/tailwind-grid-auto
 ```
 
-```js
+```js:tailwind.config.js
 // tailwind.config.js
-module.exports = {
+import gridAuto from '@jill64/tailwind-grid-auto'
+
+const config = {
   theme: {
     // ...
   },
   plugins: [
-    require('@jill64/tailwind-grid-auto')
+    gridAuto
     // ...
   ]
 }
+
+export default config
 ```
 
 ## Usage
@@ -75,15 +80,15 @@ You can configure which values are available for this plugin under the `gridAuto
 ```js
 // tailwind.config.js
 module.exports = {
-	theme: {
-		extend: {
-			gridAuto: {
-				10: '10'
-				11: '11'
-				12: '12'
-			}
-		}
-	}
+  theme: {
+    extend: {
+      gridAuto: {
+        10: '10'
+        11: '11'
+	12: '12'
+      }
+    }
+  }
 }
 ```
 
