@@ -3,8 +3,8 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "preview": "pnpm build && vite preview",
-    "lint": "npx prettier --check . --plugin prettier-plugin-svelte . && npx eslint . && pnpm check",
+    "preview": "npm run build && vite preview",
+    "lint": "npx prettier --check . --plugin prettier-plugin-svelte . && npx eslint . && npm run check",
     "format": "npx prettier --write . --plugin prettier-plugin-svelte . ",
     "check": "svelte-kit sync && npx svelte-check"
   },
