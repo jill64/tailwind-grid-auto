@@ -1,10 +1,12 @@
+<!----- BEGIN GHOST DOCS HEADER ----->
+
 # tailwind-grid-auto
 
-[![npm](https://img.shields.io/npm/v/%40jill64%2Ftailwind-grid-auto)](https://npmjs.com/package/@jill64/tailwind-grid-auto)
-[![npm](https://img.shields.io/npm/l/%40jill64%2Ftailwind-grid-auto)](https://npmjs.com/package/@jill64/tailwind-grid-auto)
-[![Deploy](https://github.com/jill64/tailwind-grid-auto/actions/workflows/deploy.yml/badge.svg)](https://github.com/jill64/tailwind-grid-auto/actions/workflows/deploy.yml)
+[![npm-version](https://img.shields.io/npm/v/@jill64/tailwind-grid-auto)](https://npmjs.com/package/@jill64/tailwind-grid-auto) [![npm-license](https://img.shields.io/npm/l/@jill64/tailwind-grid-auto)](https://npmjs.com/package/@jill64/tailwind-grid-auto) [![npm-download-month](https://img.shields.io/npm/dm/@jill64/tailwind-grid-auto)](https://npmjs.com/package/@jill64/tailwind-grid-auto) [![npm-min-size](https://img.shields.io/bundlephobia/min/@jill64/tailwind-grid-auto)](https://npmjs.com/package/@jill64/tailwind-grid-auto) [![deploy.yml](https://github.com/jill64/tailwind-grid-auto/actions/workflows/deploy.yml/badge.svg)](https://github.com/jill64/tailwind-grid-auto/actions/workflows/deploy.yml)
 
 A Tailwind CSS plugin for automatically adjusting of grid size
+
+<!----- END GHOST DOCS HEADER ----->
 
 [Demo](https://jill64.github.io/tailwind-grid-auto)
 
