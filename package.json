@@ -29,7 +29,7 @@
     "build:lib": "tsc",
     "build:demo": "cd demo && npm run build",
     "preview": "npm run build:lib && cd demo && npm run preview",
-    "test:e2e": "npx playwright install-deps && npx playwright install && playwright test",
+    "test:e2e": "npx playwright install --with-deps && npx playwright test",
     "prepack": "npm run build",
     "format": "npm run format:lib && npm run format:demo",
     "format:lib": "npx prettier --write .",
