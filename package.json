@@ -23,6 +23,12 @@
   "publishConfig": {
     "access": "public"
   },
+  "keywords": [
+    "tailwindcss",
+    "plugin",
+    "css-grid",
+    "auto"
+  ],
   "scripts": {
     "dev": "cd demo && npm run dev",
     "build": "npm run build:lib && npm run build:demo && npx publint",
