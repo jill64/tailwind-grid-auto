@@ -1,3 +1,4 @@
+root: true
 extends:
   - eslint:recommended
   - plugin:@typescript-eslint/recommended
@@ -13,7 +14,6 @@ parserOptions:
     - .svelte
 env:
   browser: true
-  es2017: true
   node: true
 overrides:
   - files:
