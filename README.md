@@ -8,14 +8,6 @@ A Tailwind CSS plugin for automatically adjusting of grid size
 
 <!----- END GHOST DOCS HEADER ----->
 
-[Demo](https://jill64.github.io/tailwind-grid-auto)
-
-## Installation
-
-```sh
-npm i @jill64/tailwind-grid-auto
-```
-
 ```js:tailwind.config.js
 // tailwind.config.js
 import gridAuto from '@jill64/tailwind-grid-auto'
