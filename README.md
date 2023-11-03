@@ -2,19 +2,19 @@
 
 # tailwind-grid-auto
 
-[![npm-version](https://img.shields.io/npm/v/@jill64/tailwind-grid-auto)](https://npmjs.com/package/@jill64/tailwind-grid-auto) [![npm-license](https://img.shields.io/npm/l/@jill64/tailwind-grid-auto)](https://npmjs.com/package/@jill64/tailwind-grid-auto) [![npm-download-month](https://img.shields.io/npm/dm/@jill64/tailwind-grid-auto)](https://npmjs.com/package/@jill64/tailwind-grid-auto) [![npm-min-size](https://img.shields.io/bundlephobia/min/@jill64/tailwind-grid-auto)](https://npmjs.com/package/@jill64/tailwind-grid-auto) [![ci.yml](https://github.com/jill64/tailwind-grid-auto/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/tailwind-grid-auto/actions/workflows/ci.yml) [![deploy.yml](https://github.com/jill64/tailwind-grid-auto/actions/workflows/deploy.yml/badge.svg)](https://github.com/jill64/tailwind-grid-auto/actions/workflows/deploy.yml)
+[![npm-version](https://img.shields.io/npm/v/@jill64/tailwind-grid-auto)](https://npmjs.com/package/@jill64/tailwind-grid-auto) [![npm-license](https://img.shields.io/npm/l/@jill64/tailwind-grid-auto)](https://npmjs.com/package/@jill64/tailwind-grid-auto) [![npm-download-month](https://img.shields.io/npm/dm/@jill64/tailwind-grid-auto)](https://npmjs.com/package/@jill64/tailwind-grid-auto) [![npm-min-size](https://img.shields.io/bundlephobia/min/@jill64/tailwind-grid-auto)](https://npmjs.com/package/@jill64/tailwind-grid-auto) [![ci.yml](https://github.com/jill64/tailwind-grid-auto/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/tailwind-grid-auto/actions/workflows/ci.yml) [![deploy.yml](https://github.com/jill64/tailwind-grid-auto/actions/workflows/deploy.yml/badge.svg)](https://github.com/jill64/tailwind-grid-auto/actions/workflows/deploy.yml) [![github-pages](https://img.shields.io/website?up_message=working&down_message=down&url=https%3A%2F%2Fjill64.github.io%2Ftailwind-grid-auto%2F)](https://jill64.github.io/tailwind-grid-auto/)
 
 A Tailwind CSS plugin for automatically adjusting of grid size
 
-<!----- END GHOST DOCS HEADER ----->
+## [Demo](https://jill64.github.io/tailwind-grid-auto/)
 
-[Demo](https://jill64.github.io/tailwind-grid-auto)
-
-## Installation
+## Install
 
 ```sh
 npm i @jill64/tailwind-grid-auto
 ```
+
+<!----- END GHOST DOCS HEADER ----->
 
 ```js:tailwind.config.js
 // tailwind.config.js
