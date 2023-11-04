@@ -8,7 +8,9 @@
   "bugs": "https://github.com/jill64/tailwind-grid-auto/issues",
   "homepage": "https://github.com/jill64/tailwind-grid-auto#readme",
   "files": [
-    "dist"
+    "dist",
+    "!*.test.*",
+    "!*.spec.*"
   ],
   "exports": {
     ".": {
@@ -24,10 +26,8 @@
     "access": "public"
   },
   "keywords": [
-    "tailwindcss",
-    "plugin",
     "css-grid",
-    "auto"
+    "tailwindcss"
   ],
   "scripts": {
     "dev": "cd demo && npm run dev",
