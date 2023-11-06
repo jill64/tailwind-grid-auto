@@ -1,2 +1,4 @@
 /demo
 /dist
+*.config.*
+/tests
