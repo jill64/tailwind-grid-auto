@@ -7,5 +7,8 @@ export default defineConfig({
     fs: {
       allow: ['..']
     }
+  },
+  ssr: {
+    noExternal: ['@jill64/sentry-sveltekit-cloudflare']
   }
 })
