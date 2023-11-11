@@ -1,7 +1,7 @@
 {
   "name": "@jill64/tailwind-grid-auto",
-  "version": "1.1.1",
-  "description": "🌪️ A Tailwind CSS plugin for automatically adjusting of grid size",
+  "version": "1.2.0",
+  "description": "🌀 A Tailwind CSS plugin for automatically adjusting of grid size",
   "main": "dist/index.js",
   "license": "MIT",
   "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
@@ -27,6 +27,7 @@
   },
   "keywords": [
     "css-grid",
+    "plugin",
     "tailwindcss"
   ],
   "scripts": {
@@ -52,9 +53,7 @@
     "@typescript-eslint/eslint-plugin": "6.10.0",
     "@typescript-eslint/parser": "6.10.0",
     "eslint-plugin-deprecation": "2.0.0",
+    "tailwindcss": "3.3.5",
     "typescript": "5.2.2"
-  },
-  "dependencies": {
-    "tailwindcss": "3.3.5"
   }
 }
