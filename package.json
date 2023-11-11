@@ -1,6 +1,6 @@
 {
   "name": "@jill64/tailwind-grid-auto",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "🌀 A Tailwind CSS plugin for automatically adjusting of grid size",
   "main": "dist/index.js",
   "license": "MIT",
