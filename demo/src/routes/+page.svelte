@@ -1,7 +1,8 @@
 <script lang="ts">
+  import { Radio } from '@jill64/svelte-input'
   import '../app.postcss'
   import BoxPreview from './BoxPreview.svelte'
-  import RadioItem from './RadioItem.svelte'
+  import GitHubLogo from './GitHubLogo.svelte'
   import { table } from './table'
 
   let count = '3'
@@ -10,26 +11,36 @@
   $: num = parseInt(count)
 </script>
 
-<header class="flex items-center justify-between m-4">
-  <h1 class="text-4xl font-bold">tailwind-grid-auto</h1>
+<header class="flex items-center justify-between px-4">
+  <div>
+    <h1 class="font-bold">@jill64/tailwind-grid-auto</h1>
+    <p class="my-2 leading-6">🌀 A Tailwind CSS plugin for auto adjusting grid</p>
+  </div>
   <a
-    class="hover:underline"
     href="https://github.com/jill64/tailwind-grid-auto"
   >
-    GitHub
+    <GitHubLogo />
   </a>
 </header>
-<div class="px-8 gap-8 flex items-center justify-center">
-  <div class="flex flex-col gap-2">
-    <RadioItem bind:group={type} value="cols" />
-    <RadioItem bind:group={type} value="rows" />
-  </div>
-  <div class="flex flex-col gap-2">
-    <RadioItem bind:group={count} value="2" />
-    <RadioItem bind:group={count} value="3" />
-    <RadioItem bind:group={count} value="4" />
-    <RadioItem bind:group={count} value="6" />
-  </div>
+<div class="gap-8 flex items-center justify-center">
+  <fieldset class="flex flex-col gap-4 border-none">
+    <Radio bind:value={type} list={[
+      'cols',
+      'rows',
+    ]} let:item >
+      <span class="ml-2">{item}</span>
+    </Radio>
+  </fieldset>
+  <fieldset class="flex flex-col gap-4 border-none">
+    <Radio bind:value={count} list={[
+      '2',
+      '3',
+      '4',
+      '6',
+    ]} let:item >
+      <span class="ml-2">{item}</span>
+    </Radio>
+  </fieldset>
 </div>
 <main class="flex flex-wrap gap-10 p-4 justify-around">
   <BoxPreview {type} {num} Class={table.grid[type][num - 1]} />

@@ -6,8 +6,8 @@
   $: direction = type === 'rows' ? 'grid-flow-col' : 'grid-flow-row'
 </script>
 
-<div class="flex flex-col gap-4 justify-center items-center self-start">
-  <code class="text-zinc-500 m-4">
+<section class="flex flex-col gap-4 justify-center items-center self-start">
+  <code class="text-zinc-500 text-lg">
     &lt;<span class="text-blue-500">div</span>
     <span class="text-sky-500">class</span>="inline-grid gap-2 {direction}
     <span class="text-amber-600">{Class}</span>"&gt;
@@ -24,4 +24,4 @@
       </div>
     {/each}
   </div>
-</div>
+</section>
