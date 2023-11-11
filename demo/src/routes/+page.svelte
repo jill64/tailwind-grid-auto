@@ -14,30 +14,22 @@
 <header class="flex items-center justify-between px-4">
   <div>
     <h1 class="font-bold">@jill64/tailwind-grid-auto</h1>
-    <p class="my-2 leading-6">🌀 A Tailwind CSS plugin for auto adjusting grid</p>
+    <p class="my-2 leading-6">
+      🌀 A Tailwind CSS plugin for auto adjusting grid
+    </p>
   </div>
-  <a
-    href="https://github.com/jill64/tailwind-grid-auto"
-  >
+  <a href="https://github.com/jill64/tailwind-grid-auto">
     <GitHubLogo />
   </a>
 </header>
 <div class="gap-8 flex items-center justify-center">
   <fieldset class="flex flex-col gap-4 border-none">
-    <Radio bind:value={type} list={[
-      'cols',
-      'rows',
-    ]} let:item >
+    <Radio bind:value={type} list={['cols', 'rows']} let:item>
       <span class="ml-2">{item}</span>
     </Radio>
   </fieldset>
   <fieldset class="flex flex-col gap-4 border-none">
-    <Radio bind:value={count} list={[
-      '2',
-      '3',
-      '4',
-      '6',
-    ]} let:item >
+    <Radio bind:value={count} list={['2', '3', '4', '6']} let:item>
       <span class="ml-2">{item}</span>
     </Radio>
   </fieldset>
