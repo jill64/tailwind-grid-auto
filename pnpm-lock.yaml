@@ -31,6 +31,12 @@ importers:
       '@jill64/sentry-sveltekit-cloudflare':
         specifier: 1.0.0
         version: 1.0.0(@sveltejs/kit@1.27.4)
+      '@jill64/svelte-dark-theme':
+        specifier: ^1.3.2
+        version: 1.3.2(@sveltejs/kit@1.27.4)(svelte@4.2.3)
+      '@jill64/svelte-input':
+        specifier: ^1.1.4
+        version: 1.1.4(svelte@4.2.3)
       '@sveltejs/adapter-cloudflare':
         specifier: 2.3.3
         version: 2.3.3(@sveltejs/kit@1.27.4)
@@ -447,6 +453,22 @@ packages:
       }
     dev: true
 
+  /@jill64/async-observer@1.1.2:
+    resolution:
+      {
+        integrity: sha512-+z1081VhX0JwO4l9BRUglCWgFGHSDmqhYVWzSJbsV9ZUyWKOYMOQClo5lgnogfJHXBZJ8lUSbNdAEWyK335QAg==
+      }
+    dependencies:
+      svelte: 4.2.3
+    dev: true
+
+  /@jill64/attempt@1.1.0:
+    resolution:
+      {
+        integrity: sha512-eHAN3A6DJXXiaIf7TFcjnj35thBNFRFwo6kXkKyoO3WqZaUDKXXyTZdL7TfWWvkKRrP1HwZY2rbLw9C9XNc0nw==
+      }
+    dev: true
+
   /@jill64/sentry-sveltekit-cloudflare@1.0.0(@sveltejs/kit@1.27.4):
     resolution:
       {
@@ -457,6 +479,60 @@ packages:
     dependencies:
       '@sveltejs/kit': 1.27.4(svelte@4.2.3)(vite@4.5.0)
       esm-env: 1.0.0
+    dev: true
+
+  /@jill64/svelte-dark-theme@1.3.2(@sveltejs/kit@1.27.4)(svelte@4.2.3):
+    resolution:
+      {
+        integrity: sha512-qGGeeJYrkNp7gxmyZOthweaHS6mN8Q07vQy7dgo+ZX42WtZnnlPnuVk1uF0bf4kadE4xRvKLjPUomeI1bGgqrQ==
+      }
+    peerDependencies:
+      '@sveltejs/kit': ^1.0.0
+      svelte: ^4.0.0
+    dependencies:
+      '@jill64/attempt': 1.1.0
+      '@jill64/svelte-device-theme': 1.2.0(svelte@4.2.3)
+      '@jill64/typed-storage': 1.0.1
+      '@sveltejs/kit': 1.27.4(svelte@4.2.3)(vite@4.5.0)
+      cookie: 0.6.0
+      svelte: 4.2.3
+      typescanner: 0.5.3
+    dev: true
+
+  /@jill64/svelte-device-theme@1.2.0(svelte@4.2.3):
+    resolution:
+      {
+        integrity: sha512-FiAwDd/LpXXXmD0936mOyvweyDqn5umZqAmgWtu5h8y1QY2w90dt/yqdZmiohvp+bDrNcXGnyy+Du9tnUo0ryQ==
+      }
+    peerDependencies:
+      svelte: ^4.0.0
+    dependencies:
+      esm-env: 1.0.0
+      svelte: 4.2.3
+    dev: true
+
+  /@jill64/svelte-input@1.1.4(svelte@4.2.3):
+    resolution:
+      {
+        integrity: sha512-Vn8CEbKTnaWoGtCbE8GqAERFxkk/VE1U5Wld4IS0pAvSdkh9Us98GoEeoSO++Dha4UwUnjLL1PXiwrLTJ4ie1g==
+      }
+    peerDependencies:
+      svelte: ^4.0.0
+    dependencies:
+      '@jill64/async-observer': 1.1.2
+      '@jill64/svelte-device-theme': 1.2.0(svelte@4.2.3)
+      bignumber.js: 9.1.2
+      svelte: 4.2.3
+      svelte-loading-spinners: 0.3.4
+    dev: true
+
+  /@jill64/typed-storage@1.0.1:
+    resolution:
+      {
+        integrity: sha512-/ZXAnohwvA5N3Pz8s029mb9ZfLYxXT8YzATkU2LqxktkuRpqgf4j1f+3wWOnXzAookbSfe+m3VSCy7DuEaHKbw==
+      }
+    dependencies:
+      '@jill64/attempt': 1.1.0
     dev: true
 
   /@jridgewell/gen-mapping@0.3.3:
@@ -963,6 +1039,13 @@ packages:
       }
     dev: true
 
+  /bignumber.js@9.1.2:
+    resolution:
+      {
+        integrity: sha512-2/mKyZH9K85bzOEfhXDBFZTGd1CTs+5IHpeFQo9luiBG7hghdC851Pj2WAhb6E3R6b9tZj/XKhbg4fum+Kepug==
+      }
+    dev: true
+
   /binary-extensions@2.2.0:
     resolution:
       {
@@ -1106,6 +1189,14 @@ packages:
     resolution:
       {
         integrity: sha512-YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==
+      }
+    engines: { node: '>= 0.6' }
+    dev: true
+
+  /cookie@0.6.0:
+    resolution:
+      {
+        integrity: sha512-U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw==
       }
     engines: { node: '>= 0.6' }
     dev: true
@@ -2684,6 +2775,13 @@ packages:
       svelte: 4.2.3
     dev: true
 
+  /svelte-loading-spinners@0.3.4:
+    resolution:
+      {
+        integrity: sha512-vKaW71QMCBcTNijAGc0mUl8k3DQ66iYmp6MB8BMGCXyWk82bTrcLy8FOnSm9fE+8q6TwzD6PLUoYFHt0II93Xw==
+      }
+    dev: true
+
   /svelte@4.2.3:
     resolution:
       {
@@ -2856,6 +2954,14 @@ packages:
         integrity: sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ==
       }
     engines: { node: '>=10' }
+    dev: true
+
+  /typescanner@0.5.3:
+    resolution:
+      {
+        integrity: sha512-B7EGCU7UEvTlFUE/yciT8L1pkNRLhqCa4tatuOuC5cKRCbLelB24y/P9RLDtT1Qq5CyLPSf5h9yv7Ij5BMyWmA==
+      }
+    engines: { node: '>=14' }
     dev: true
 
   /typescript@5.2.2:
