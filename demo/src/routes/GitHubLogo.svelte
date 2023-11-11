@@ -1,5 +1,5 @@
 <script lang="ts">
-  </script>
+</script>
 
 <svg
   width="32"
