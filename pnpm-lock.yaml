@@ -32,8 +32,8 @@ importers:
         specifier: 1.0.0
         version: 1.0.0(@sveltejs/kit@1.27.6)
       '@jill64/svelte-input':
-        specifier: 1.1.4
-        version: 1.1.4(svelte@4.2.3)
+        specifier: 1.2.0
+        version: 1.2.0(svelte@4.2.3)
       '@sveltejs/adapter-cloudflare':
         specifier: 2.3.3
         version: 2.3.3(@sveltejs/kit@1.27.6)
@@ -483,10 +483,10 @@ packages:
       svelte: 4.2.3
     dev: true
 
-  /@jill64/svelte-input@1.1.4(svelte@4.2.3):
+  /@jill64/svelte-input@1.2.0(svelte@4.2.3):
     resolution:
       {
-        integrity: sha512-Vn8CEbKTnaWoGtCbE8GqAERFxkk/VE1U5Wld4IS0pAvSdkh9Us98GoEeoSO++Dha4UwUnjLL1PXiwrLTJ4ie1g==
+        integrity: sha512-p0/mph6KC33oq+jzRtrDCgl6ryLRpi9An/Q76yr7PIycvwBGpTJyr6ecxj8ASh5JbODqFd8nJbBVesiU0I9Tow==
       }
     peerDependencies:
       svelte: ^4.0.0
