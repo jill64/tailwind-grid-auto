@@ -6,6 +6,8 @@
 
 🌀 A Tailwind CSS plugin for auto adjusting grid
 
+## [Demo](https://tailwind-grid-auto.jill64.dev)
+
 ## Installation
 
 ```sh
