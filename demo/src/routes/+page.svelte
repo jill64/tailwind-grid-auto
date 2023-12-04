@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { FlipButton, ThemeManager } from '@jill64/svelte-dark-theme'
   import { Radio } from '@jill64/svelte-input'
   import '../app.postcss'
   import BoxPreview from './BoxPreview.svelte'
@@ -11,13 +12,16 @@
   $: num = parseInt(count)
 </script>
 
-<header class="flex items-center justify-between px-4">
-  <div>
+<ThemeManager />
+
+<header class="flex items-center justify-between px-4 gap-4">
+  <hgroup class="mr-auto">
     <h1 class="font-bold">@jill64/tailwind-grid-auto</h1>
     <p class="my-2 leading-6">
       🌀 A Tailwind CSS plugin for auto adjusting grid
     </p>
-  </div>
+  </hgroup>
+  <FlipButton />
   <a href="https://github.com/jill64/tailwind-grid-auto">
     <GitHubLogo />
   </a>
