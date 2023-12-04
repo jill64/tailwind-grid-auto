@@ -1,9 +1,8 @@
-import { Config } from 'tailwindcss'
-import gridAuto from '../dist/index.js'
+import { tailwindConfig } from '@jill64/svelte-tailwind'
+import gridAuto from '../dist/index'
 
-const config = {
+/** @type {import('@jill64/svelte-tailwind').TailwindConfig} */
+export default tailwindConfig({
   content: ['./src/**/*.{html,js,svelte,ts}'],
   plugins: [gridAuto]
-} satisfies Config
-
-export default config
+})
