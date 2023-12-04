@@ -1,4 +1,4 @@
-import plugin from 'tailwindcss/plugin'
+import plugin from 'tailwindcss/plugin.js'
 
 const gridAuto = plugin(
   ({ matchUtilities, theme }) => {
@@ -33,4 +33,4 @@ const gridAuto = plugin(
   }
 )
 
-export = gridAuto
+export default gridAuto
