@@ -8,12 +8,6 @@
 
 ## [Demo](https://tailwind-grid-auto.jill64.dev)
 
-## Installation
-
-```sh
-npm i @jill64/tailwind-grid-auto
-```
-
 <!----- END GHOST DOCS HEADER ----->
 
 ```js:tailwind.config.js
