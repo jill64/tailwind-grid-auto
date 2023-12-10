@@ -6,10 +6,10 @@
   "type": "module",
   "license": "MIT",
   "author": {
-    "name": "",
-    "email": "",
-    "url": "",
-    "image": ""
+    "name": "jill64",
+    "email": "143883742+jill64@users.noreply.github.com",
+    "url": "https://github.com/jill64",
+    "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
   },
   "bugs": "https://github.com/jill64/tailwind-grid-auto/issues",
   "homepage": "https://github.com/jill64/tailwind-grid-auto#readme",
@@ -27,7 +27,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/tailwind-grid-auto.git",
-    "image": ""
+    "image": "https://opengraph.githubassets.com/d39068072022754fe453edcd8b5ee50bc23e0a45aab1d3cd1b7ab20567767bb7/jill64/tailwind-grid-auto"
   },
   "publishConfig": {
     "access": "public"
