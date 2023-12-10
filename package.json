@@ -5,7 +5,12 @@
   "main": "dist/index.js",
   "type": "module",
   "license": "MIT",
-  "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": "",
+    "image": ""
+  },
   "bugs": "https://github.com/jill64/tailwind-grid-auto/issues",
   "homepage": "https://github.com/jill64/tailwind-grid-auto#readme",
   "files": [
@@ -21,7 +26,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jill64/tailwind-grid-auto.git"
+    "url": "https://github.com/jill64/tailwind-grid-auto.git",
+    "image": ""
   },
   "publishConfig": {
     "access": "public"
@@ -32,7 +38,7 @@
     "tailwindcss"
   ],
   "scripts": {
-    "dev": "cd demo && pnpm dev",
+    "dev": "pnpm build:lib && cd demo && pnpm dev",
     "build": "pnpm build:lib && pnpm build:demo && npx publint",
     "build:lib": "tsc",
     "build:demo": "cd demo && pnpm build",
