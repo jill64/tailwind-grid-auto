@@ -84,3 +84,11 @@ Alternatively, you can use square bracket notation.
 | --------------- | ---------------------------------------- |
 | `cols-auto-[n]` | `grid-template-columns: repeat(n, auto)` |
 | `rows-auto-[n]` | `grid-template-rows: repeat(n, auto)`    |
+
+<!----- BEGIN GHOST DOCS FOOTER ----->
+
+## License
+
+MIT
+
+<!----- END GHOST DOCS FOOTER ----->
