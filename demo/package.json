@@ -14,7 +14,7 @@
     "@jill64/npm-demo-layout": "1.0.114",
     "@jill64/universal-sanitizer": "1.2.3",
     "@jill64/sentry-sveltekit-cloudflare": "1.7.7",
-    "@jill64/svelte-input": "1.6.16",
+    "@jill64/svelte-input": "1.6.17",
     "@jill64/svelte-tailwind": "1.2.7",
     "@sveltejs/adapter-cloudflare": "4.1.0",
     "@sveltejs/kit": "2.5.3",
