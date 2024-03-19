@@ -45,8 +45,8 @@ importers:
         specifier: 1.2.10
         version: 1.2.10
       '@jill64/universal-sanitizer':
-        specifier: 1.2.4
-        version: 1.2.4
+        specifier: 1.2.5
+        version: 1.2.5
       '@sveltejs/adapter-cloudflare':
         specifier: 4.2.0
         version: 4.2.0(@sveltejs/kit@2.5.4)(wrangler@3.34.1)
@@ -862,12 +862,12 @@ packages:
       sanitize-html: 2.12.1
     dev: true
 
-  /@jill64/universal-sanitizer@1.2.4:
-    resolution: {integrity: sha512-XZqVrDYgqLFR1yBoHe2FtqY5dOqbaDniChllvhxcyc02u/PsCvLKwIw5Tl3RGlvFFGhz1ELxQoAoiN53R310vw==}
+  /@jill64/universal-sanitizer@1.2.5:
+    resolution: {integrity: sha512-7EBIlCLX0xVG8nnkgZfGi5AOxDOlLF6dyzQW6FrcNl6Po8z77cYnaLW3MIQ+sklSo4GJ+UA1NC0c3UsU4V5qnA==}
     dependencies:
       '@types/dompurify': 3.0.5
       '@types/sanitize-html': 2.11.0
-      dompurify: 3.0.9
+      dompurify: 3.0.10
       sanitize-html: 2.12.1
     dev: true
 
@@ -1957,6 +1957,10 @@ packages:
     engines: {node: '>= 4'}
     dependencies:
       domelementtype: 2.3.0
+    dev: true
+
+  /dompurify@3.0.10:
+    resolution: {integrity: sha512-WZDL8ZHTliEVP3Lk4phtvjg8SNQ3YMc5WVstxE8cszKZrFjzI4PF4ZTIk9VGAc9vZADO7uGO2V/ZiStcRSAT4Q==}
     dev: true
 
   /dompurify@3.0.9:
@@ -3134,7 +3138,7 @@ packages:
       htmlparser2: 8.0.2
       is-plain-object: 5.0.0
       parse-srcset: 1.0.2
-      postcss: 8.4.36
+      postcss: 8.4.37
     dev: true
 
   /selfsigned@2.4.1:
