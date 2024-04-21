@@ -7,7 +7,7 @@
   "license": "MIT",
   "author": {
     "name": "jill64",
-    "email": "intents.turrets0h@icloud.com",
+    "email": "contact@jill64.dev",
     "url": "https://github.com/jill64",
     "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
   },
@@ -27,7 +27,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/tailwind-grid-auto.git",
-    "image": "https://opengraph.githubassets.com/9d7248f6b26d6b76aecc8aaea56cf66b873b1fd741dc602214a6a79d0ebb8c15/jill64/tailwind-grid-auto"
+    "image": "https://opengraph.githubassets.com/fbac60c12c3b71dc2bac9dbacf110525d53c176e0e1b090e29b400874c033dac/jill64/tailwind-grid-auto"
   },
   "publishConfig": {
     "access": "public"
