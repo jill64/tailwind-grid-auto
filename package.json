@@ -27,7 +27,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/tailwind-grid-auto.git",
-    "image": "https://opengraph.githubassets.com/0d64680dbea1de7dc09ec0a4dda7e45cf464e31b1721c136a04f6c4f5d9c233c/jill64/tailwind-grid-auto"
+    "image": "https://opengraph.githubassets.com/18a9f2b14b6a7ff9d8ccbf20dc40a34278ea0b2db227fb399108e21f38ad40f1/jill64/tailwind-grid-auto"
   },
   "publishConfig": {
     "access": "public"
@@ -60,7 +60,7 @@
     "@jill64/eslint-config-ts": "1.1.29",
     "@jill64/playwright-config": "2.4.0",
     "@jill64/prettier-config": "1.0.0",
-    "@playwright/test": "1.45.1",
+    "@playwright/test": "1.45.2",
     "tailwindcss": "3.4.5",
     "typescript": "5.5.3"
   }
