@@ -27,7 +27,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/tailwind-grid-auto.git",
-    "image": "https://opengraph.githubassets.com/bdadbc2a3e956b916fda4d944db33b2fce9065c11ba15fd13cde17da53efe076/jill64/tailwind-grid-auto"
+    "image": "https://opengraph.githubassets.com/63114f015502875208e7b00dcf29cbc30781ead82fc32b6b617866792f928ed8/jill64/tailwind-grid-auto"
   },
   "publishConfig": {
     "access": "public"
