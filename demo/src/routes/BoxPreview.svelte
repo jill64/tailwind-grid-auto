@@ -1,9 +1,15 @@
 <script lang="ts">
-  export let type: 'cols' | 'rows'
-  export let Class: string
-  export let num: number
+  let {
+    type,
+    Class,
+    num
+  }: {
+    type: 'cols' | 'rows'
+    Class: string
+    num: number
+  } = $props()
 
-  $: direction = type === 'rows' ? 'grid-flow-col' : 'grid-flow-row'
+  let direction = $derived(type === 'rows' ? 'grid-flow-col' : 'grid-flow-row')
 </script>
 
 <section class="flex flex-col gap-4 justify-center items-center self-start">

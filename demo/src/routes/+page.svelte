@@ -3,21 +3,25 @@
   import BoxPreview from './BoxPreview.svelte'
   import { table } from './table'
 
-  let count = '3'
-  let type: 'cols' | 'rows' = 'cols'
+  let count = $state('3')
+  let type = $state<'cols' | 'rows'>('cols')
 
-  $: num = parseInt(count)
+  let num = $derived(parseInt(count))
 </script>
 
 <div class="gap-8 flex items-center justify-center">
   <fieldset class="flex flex-col gap-4 border-none">
-    <Radio bind:value={type} list={['cols', 'rows']} let:item>
-      <span class="ml-2">{item}</span>
+    <Radio bind:value={type} list={['cols', 'rows']}>
+      {#snippet children(item)}
+        <span class="ml-2">{item}</span>
+      {/snippet}
     </Radio>
   </fieldset>
   <fieldset class="flex flex-col gap-4 border-none">
-    <Radio bind:value={count} list={['2', '3', '4', '6']} let:item>
-      <span class="ml-2">{item}</span>
+    <Radio bind:value={count} list={['2', '3', '4', '6']}>
+      {#snippet children(item)}
+        <span class="ml-2">{item}</span>
+      {/snippet}
     </Radio>
   </fieldset>
 </div>
