@@ -1,6 +1,6 @@
 {
   "name": "@jill64/tailwind-grid-auto",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "🌀 A Tailwind CSS plugin for auto adjusting grid",
   "main": "dist/index.js",
   "type": "module",
@@ -27,7 +27,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/tailwind-grid-auto.git",
-    "image": "https://opengraph.githubassets.com/9bd7414c47fccaae15f88532d98821130fc641b732a945598b1e8e1238373c80/jill64/tailwind-grid-auto"
+    "image": "https://opengraph.githubassets.com/b1fb1c390e88c581ca6138afc257aae71ed52083c7941df113df48b150876fed/jill64/tailwind-grid-auto"
   },
   "publishConfig": {
     "access": "public"
